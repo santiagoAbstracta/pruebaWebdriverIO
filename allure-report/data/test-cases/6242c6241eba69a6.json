@@ -1,0 +1,91 @@
+{
+  "uid" : "6242c6241eba69a6",
+  "name" : "Should logut ",
+  "fullName" : "login.Should logut ",
+  "historyId" : "4e6ccf47b45348774cc24ceec5a86d6d",
+  "time" : {
+    "start" : 1631833810542,
+    "stop" : 1631833810802,
+    "duration" : 260
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element.waitForClickable is not a function",
+  "statusTrace" : "TypeError: element.waitForClickable is not a function\n                    at LoginPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:19)\n                    at LoginPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:16)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:17:21)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element.waitForClickable is not a function",
+    "statusTrace" : "TypeError: element.waitForClickable is not a function\n                    at LoginPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:19)\n                    at LoginPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:16)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:17:21)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631833810544,
+        "stop" : 1631833810794,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d978bce131aa3af",
+        "name" : "Screenshot",
+        "source" : "4d978bce131aa3af.png",
+        "type" : "image/png",
+        "size" : 166574
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should logut "
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6242c6241eba69a6.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

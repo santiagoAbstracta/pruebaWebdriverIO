@@ -1,0 +1,113 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632086455327' stop='1632086475094'>
+    <name>Login happy and negative cases</name>
+    <title>Login happy and negative cases</title>
+    <test-cases>
+        <test-case start='1632086455332' status='passed' stop='1632086470873'>
+            <name>Should NOT login, invalid credentials</name>
+            <title>Should NOT login, invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632086455527' status='passed' stop='1632086455527'>
+                    <name>Go to login page</name>
+                    <title>Go to login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086462888' status='passed' stop='1632086462888'>
+                    <name>Login with the following email: santiago.rodriguez@abstracta.com.uy</name>
+                    <title>Login with the following email: santiago.rodriguez@abstracta.com.uy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086465491' status='passed' stop='1632086465491'>
+                    <name>Get current page header</name>
+                    <title>Get current page header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086465594' status='passed' stop='1632086465594'>
+                    <name>Get error message</name>
+                    <title>Get error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086465711' status='passed' stop='1632086465711'>
+                    <name>Go to login page</name>
+                    <title>Go to login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086468172' status='passed' stop='1632086468172'>
+                    <name>Login with the following email: santiago.rodriguez+emailnotregistered@abstracta.com.uy</name>
+                    <title>Login with the following email: santiago.rodriguez+emailnotregistered@abstracta.com.uy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086470644' status='passed' stop='1632086470644'>
+                    <name>Get current page header</name>
+                    <title>Get current page header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086470739' status='passed' stop='1632086470739'>
+                    <name>Get error message</name>
+                    <title>Get error message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632086470874' status='passed' stop='1632086475092'>
+            <name>Should login correctly</name>
+            <title>Should login correctly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632086470875' status='passed' stop='1632086470875'>
+                    <name>Login with the following email: santiago.rodriguez@abstracta.com.uy</name>
+                    <title>Login with the following email: santiago.rodriguez@abstracta.com.uy</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086474977' status='passed' stop='1632086474977'>
+                    <name>Get current browser URL</name>
+                    <title>Get current browser URL</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086474990' status='passed' stop='1632086474990'>
+                    <name>Get current browser title</name>
+                    <title>Get current browser title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632086475006' status='passed' stop='1632086475006'>
+                    <name>Get current page header</name>
+                    <title>Get current page header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

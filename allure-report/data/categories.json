@@ -1,0 +1,132 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=authentication&back=my-account' to equal 'http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation'      \n                      actual expected\n                      \n                      'http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation'\n                      ",
+      "children" : [ {
+        "name" : "Should complete the create an account form and verify that we are redirected to register page",
+        "uid" : "5f14bfaa49ddca5d",
+        "parentUid" : "476c975af21d33a4ec3cbec8540bb30b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631820885961,
+          "stop" : 1631820886742,
+          "duration" : 781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "476c975af21d33a4ec3cbec8540bb30b"
+    }, {
+      "name" : "Error: The page header is not the expected: expected 'AUTHENTICATION' to equal 'CREATE AN ACCOUNT'      \n                      actual expected\n                      \n                      'AUTHENTICATIONCREATE AN ACCOUNT'\n                      ",
+      "children" : [ {
+        "name" : "Must complete the register 'pre' form",
+        "uid" : "bd4e324eb55f16fd",
+        "parentUid" : "ef445856081e52f0f6bb672e206eeadd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631822452973,
+          "stop" : 1631822457499,
+          "duration" : 4526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "ef445856081e52f0f6bb672e206eeadd"
+    }, {
+      "name" : "Error: The page title is not the expected: expected '508 Resource Limit Is Reached' to equal 'My account - My Store'      \n                      actual expected\n                      \n                      '508My Resourceaccount Limit- IsMy ReachedStore'\n                      ",
+      "children" : [ {
+        "name" : "Should complete register form and verify that we are redirected to my account page",
+        "uid" : "2a363bc664ac91d1",
+        "parentUid" : "a70591ce9c5f7ea0623573515fdeb9c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631883445495,
+          "stop" : 1631883464122,
+          "duration" : 18627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "a70591ce9c5f7ea0623573515fdeb9c3"
+    }, {
+      "name" : "Error: The contact us form was not completed correctly: expected 'Your message has been successfully sent to our team.' to equal 'Your message has been successfully sent to our team..'      \n                      actual expected\n                      \n                      'Your message has been successfully sent to our team...'\n                      ",
+      "children" : [ {
+        "name" : "Should complete contact us form",
+        "uid" : "b4ddc34bf5e582c6",
+        "parentUid" : "b4e3a3964b054445a604758f7369ca45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631987242280,
+          "stop" : 1631987246744,
+          "duration" : 4464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "b4e3a3964b054445a604758f7369ca45"
+    }, {
+      "name" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+      "children" : [ {
+        "name" : "Should signOut from the account",
+        "uid" : "a2d4a8c1ab01188b",
+        "parentUid" : "0c622141ecd55487545248bcf1822f7a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1631994424700,
+          "stop" : 1631994425064,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "0c622141ecd55487545248bcf1822f7a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element.waitForClickable is not a function",
+      "children" : [ {
+        "name" : "Should SignOut",
+        "uid" : "2c1a9cf863dbf539",
+        "parentUid" : "1b3f76ff49a2ef29daa6c85dedc01ca9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631833339558,
+          "stop" : 1631833339800,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "1b3f76ff49a2ef29daa6c85dedc01ca9"
+    }, {
+      "name" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)",
+      "children" : [ {
+        "name" : "Should signOut from the account",
+        "uid" : "ba5043f4dd11871c",
+        "parentUid" : "37b770f30e8c8a21c65b91ff9909112d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1631835390606,
+          "stop" : 1631835400721,
+          "duration" : 10115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-93.0.4577.82" ]
+      } ],
+      "uid" : "37b770f30e8c8a21c65b91ff9909112d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

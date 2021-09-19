@@ -1,0 +1,187 @@
+{
+  "uid" : "79bd54a10ac397eb",
+  "name" : "Should add product to the cart",
+  "fullName" : "Search for a product, and add it to the cart.Should add product to the cart",
+  "historyId" : "b5ff797301683a12777b11906cbb80f6",
+  "time" : {
+    "start" : 1631903120779,
+    "stop" : 1631903121210,
+    "duration" : 431
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot access 'hola' before initialization",
+  "statusTrace" : "ReferenceError: Cannot access 'hola' before initialization\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/addProductToCart.test.js:27:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot access 'hola' before initialization",
+    "statusTrace" : "ReferenceError: Cannot access 'hola' before initialization\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/addProductToCart.test.js:27:30)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631903120780,
+        "stop" : 1631903120799,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa80b1d01356c788",
+        "name" : "Request",
+        "source" : "fa80b1d01356c788.json",
+        "type" : "application/json",
+        "size" : 56
+      }, {
+        "uid" : "6faf9fdeb5723fcc",
+        "name" : "Response",
+        "source" : "6faf9fdeb5723fcc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631903120802,
+        "stop" : 1631903120829,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fb0a8489c01031",
+        "name" : "Request",
+        "source" : "3fb0a8489c01031.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "e2ae6c5d16e38f27",
+        "name" : "Response",
+        "source" : "e2ae6c5d16e38f27.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631903120829,
+        "stop" : 1631903120865,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b6b162ce94c9e9c",
+        "name" : "Request",
+        "source" : "2b6b162ce94c9e9c.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "96ff43c369b48ed2",
+        "name" : "Response",
+        "source" : "96ff43c369b48ed2.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0d20d2c4-37bf-4723-93e2-bfd002fe3614/click",
+      "time" : {
+        "start" : 1631903120865,
+        "stop" : 1631903120938,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631903120939,
+        "stop" : 1631903121202,
+        "duration" : 263
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ddde2d5e9d558b",
+        "name" : "Screenshot",
+        "source" : "5ddde2d5e9d558b.png",
+        "type" : "image/png",
+        "size" : 242752
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should add product to the cart"
+  }, {
+    "name" : "package",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79bd54a10ac397eb.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

@@ -1,0 +1,156 @@
+{
+  "uid" : "b985754170dff3d8",
+  "name" : "Should go to login page and verify the URL",
+  "fullName" : "register.Should go to login page and verify the URL",
+  "historyId" : "8124e90e2ac3976c425af0df4e725a7c",
+  "time" : {
+    "start" : 1631820735289,
+    "stop" : 1631820739149,
+    "duration" : 3860
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1631820735347,
+        "stop" : 1631820739081,
+        "duration" : 3734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bcb825e997e8fe5",
+        "name" : "Request",
+        "source" : "8bcb825e997e8fe5.json",
+        "type" : "application/json",
+        "size" : 96
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631820739081,
+        "stop" : 1631820739096,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb631c95412b6380",
+        "name" : "Response",
+        "source" : "eb631c95412b6380.json",
+        "type" : "application/json",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631820739098,
+        "stop" : 1631820739120,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38610651ac2665e1",
+        "name" : "Request",
+        "source" : "38610651ac2665e1.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "d7291231c580ce54",
+        "name" : "Response",
+        "source" : "d7291231c580ce54.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/410cb811-2033-4515-b201-bb8e3fdae5fd/text",
+      "time" : {
+        "start" : 1631820739128,
+        "stop" : 1631820739148,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fde8332fa8d9b1b7",
+        "name" : "Response",
+        "source" : "fde8332fa8d9b1b7.json",
+        "type" : "application/json",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to login page and verify the URL"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b985754170dff3d8.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

@@ -1,0 +1,663 @@
+{
+  "uid" : "ba5043f4dd11871c",
+  "name" : "Should signOut from the account",
+  "fullName" : "register.Should signOut from the account",
+  "historyId" : "999abb67b908629b23480c6b548cc745",
+  "time" : {
+    "start" : 1631835390606,
+    "stop" : 1631835400721,
+    "duration" : 10115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)",
+    "statusTrace" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835390607,
+        "stop" : 1631835390641,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ea34f42a7fb3fed",
+        "name" : "Request",
+        "source" : "3ea34f42a7fb3fed.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "d2ef3e8e50c86449",
+        "name" : "Response",
+        "source" : "d2ef3e8e50c86449.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835390651,
+        "stop" : 1631835390685,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc2e5f2fc1ff2599",
+        "name" : "Request",
+        "source" : "fc2e5f2fc1ff2599.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "1f4e232fd83ba5ce",
+        "name" : "Response",
+        "source" : "1f4e232fd83ba5ce.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835391155,
+        "stop" : 1631835391222,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6c5396c82439256",
+        "name" : "Request",
+        "source" : "e6c5396c82439256.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "58f467b2cc8ba487",
+        "name" : "Response",
+        "source" : "58f467b2cc8ba487.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835391663,
+        "stop" : 1631835391732,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3e4307ed7162c8d",
+        "name" : "Request",
+        "source" : "d3e4307ed7162c8d.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "e686e102ebd7419f",
+        "name" : "Response",
+        "source" : "e686e102ebd7419f.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835392161,
+        "stop" : 1631835392192,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "110f9c37699eaf9f",
+        "name" : "Request",
+        "source" : "110f9c37699eaf9f.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "f5342da2addf41d3",
+        "name" : "Response",
+        "source" : "f5342da2addf41d3.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835392659,
+        "stop" : 1631835392694,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4100897def38d12",
+        "name" : "Request",
+        "source" : "f4100897def38d12.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "3d6d2353bf28942c",
+        "name" : "Response",
+        "source" : "3d6d2353bf28942c.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835393153,
+        "stop" : 1631835393185,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2ceaba8e23b6505",
+        "name" : "Request",
+        "source" : "b2ceaba8e23b6505.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "656db20513066aeb",
+        "name" : "Response",
+        "source" : "656db20513066aeb.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835393667,
+        "stop" : 1631835393703,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6755833333c96344",
+        "name" : "Request",
+        "source" : "6755833333c96344.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "22f4a72ab8a5c92",
+        "name" : "Response",
+        "source" : "22f4a72ab8a5c92.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835394161,
+        "stop" : 1631835394194,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a0452bcb77ae463",
+        "name" : "Request",
+        "source" : "3a0452bcb77ae463.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "3a73c7325fbd0223",
+        "name" : "Response",
+        "source" : "3a73c7325fbd0223.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835394659,
+        "stop" : 1631835394733,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e793ac7ac79774a",
+        "name" : "Request",
+        "source" : "7e793ac7ac79774a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "fae876a26216b421",
+        "name" : "Response",
+        "source" : "fae876a26216b421.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835395163,
+        "stop" : 1631835395232,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c53c678117603c5",
+        "name" : "Request",
+        "source" : "7c53c678117603c5.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "7a2da5067e7526cc",
+        "name" : "Response",
+        "source" : "7a2da5067e7526cc.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835395654,
+        "stop" : 1631835395727,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6c13bf2403752c8",
+        "name" : "Request",
+        "source" : "b6c13bf2403752c8.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "13b06bda6039714",
+        "name" : "Response",
+        "source" : "13b06bda6039714.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835396158,
+        "stop" : 1631835396189,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac30c94c98ea6186",
+        "name" : "Request",
+        "source" : "ac30c94c98ea6186.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "76bd221fa47afffd",
+        "name" : "Response",
+        "source" : "76bd221fa47afffd.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835396655,
+        "stop" : 1631835396687,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff016cbd970c4b8",
+        "name" : "Request",
+        "source" : "ff016cbd970c4b8.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "3e2919cf9bbedb27",
+        "name" : "Response",
+        "source" : "3e2919cf9bbedb27.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835397151,
+        "stop" : 1631835397188,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae6b07ebb67d4147",
+        "name" : "Request",
+        "source" : "ae6b07ebb67d4147.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "336fa27d56428550",
+        "name" : "Response",
+        "source" : "336fa27d56428550.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835397655,
+        "stop" : 1631835397690,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec2cf1bd835e7add",
+        "name" : "Request",
+        "source" : "ec2cf1bd835e7add.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "551468d79f158a5d",
+        "name" : "Response",
+        "source" : "551468d79f158a5d.json",
+        "type" : "application/json",
+        "size" : 998
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835398155,
+        "stop" : 1631835398345,
+        "duration" : 190
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26cf0902d6c3aba9",
+        "name" : "Request",
+        "source" : "26cf0902d6c3aba9.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631835398652,
+        "stop" : 1631835400721,
+        "duration" : 2069
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1631835399166,
+          "stop" : 1631835400721,
+          "duration" : 1555
+        },
+        "status" : "broken",
+        "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1631835399657,
+            "stop" : 1631835400721,
+            "duration" : 1064
+          },
+          "status" : "broken",
+          "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+          "steps" : [ {
+            "name" : "POST /session/:sessionId/element",
+            "time" : {
+              "start" : 1631835400164,
+              "stop" : 1631835400721,
+              "duration" : 557
+            },
+            "status" : "broken",
+            "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+            "steps" : [ {
+              "name" : "POST /session/:sessionId/element",
+              "time" : {
+                "start" : 1631835400661,
+                "stop" : 1631835400721,
+                "duration" : 60
+              },
+              "status" : "broken",
+              "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+              "steps" : [ {
+                "name" : "GET /session/:sessionId/screenshot",
+                "time" : {
+                  "start" : 1631835400670,
+                  "stop" : 1631835400721,
+                  "duration" : 51
+                },
+                "status" : "broken",
+                "statusMessage" : "Error: waitUntil condition failed with the following reason: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=93.0.4577.82)\n                    at C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:70:15\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at Element.wrapCommandFn (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:106:29)\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:5)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:5)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:7)",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : true,
+                "stepsCount" : 0,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "5002543f62863794",
+                "name" : "Request",
+                "source" : "5002543f62863794.json",
+                "type" : "application/json",
+                "size" : 57
+              } ],
+              "parameters" : [ ],
+              "attachmentsCount" : 1,
+              "shouldDisplayMessage" : false,
+              "stepsCount" : 1,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "a621099a263e4bca",
+              "name" : "Request",
+              "source" : "a621099a263e4bca.json",
+              "type" : "application/json",
+              "size" : 57
+            } ],
+            "parameters" : [ ],
+            "attachmentsCount" : 2,
+            "shouldDisplayMessage" : false,
+            "stepsCount" : 2,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "375e03032eacaf86",
+            "name" : "Request",
+            "source" : "375e03032eacaf86.json",
+            "type" : "application/json",
+            "size" : 57
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 3,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 3,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "3465b9fa7793723b",
+          "name" : "Request",
+          "source" : "3465b9fa7793723b.json",
+          "type" : "application/json",
+          "size" : 57
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "3f69806e61518886",
+        "name" : "Request",
+        "source" : "3f69806e61518886.json",
+        "type" : "application/json",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 38,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 23,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signOut from the account"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a02c94313c5b6b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631835373828,
+        "stop" : 1631835376827,
+        "duration" : 2999
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba5043f4dd11871c.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

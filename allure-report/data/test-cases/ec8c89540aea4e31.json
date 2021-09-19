@@ -1,0 +1,112 @@
+{
+  "uid" : "ec8c89540aea4e31",
+  "name" : "Should signOut from the account",
+  "fullName" : "login.Should signOut from the account",
+  "historyId" : "a64eac1b94e47f416a57382c4ff26042",
+  "time" : {
+    "start" : 1631994333863,
+    "stop" : 1631994334223,
+    "duration" : 360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+  "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:26:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+    "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:26:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631994333864,
+        "stop" : 1631994333924,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d9ab00c04b07f13",
+        "name" : "Response",
+        "source" : "9d9ab00c04b07f13.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631994333929,
+        "stop" : 1631994334205,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1761cdf24f61274",
+        "name" : "Screenshot",
+        "source" : "d1761cdf24f61274.png",
+        "type" : "image/png",
+        "size" : 166574
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signOut from the account"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec8c89540aea4e31.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

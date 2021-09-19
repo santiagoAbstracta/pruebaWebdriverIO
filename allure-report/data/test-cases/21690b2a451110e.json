@@ -1,0 +1,272 @@
+{
+  "uid" : "21690b2a451110e",
+  "name" : "Should search for the product ",
+  "fullName" : "Search for a product, go to product page and add to the cart.Should search for the product ",
+  "historyId" : "8eb12ca604edc9345d1424787c994981",
+  "time" : {
+    "start" : 1631887304449,
+    "stop" : 1631887321548,
+    "duration" : 17099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'      \n                      actual expected\n                      \n                      [Function:'Faded getProductNameResult]Short Sleeve T-shirts'\n                      ",
+  "statusTrace" : "AssertionError: Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/product.test.js:9:14)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'      \n                      actual expected\n                      \n                      [Function:'Faded getProductNameResult]Short Sleeve T-shirts'\n                      ",
+    "statusTrace" : "AssertionError: Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/product.test.js:9:14)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631887304553,
+        "stop" : 1631887320522,
+        "duration" : 15969
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a43ed39df0676431",
+        "name" : "Request",
+        "source" : "a43ed39df0676431.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631887320543,
+        "stop" : 1631887320581,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0e8186930f307a5",
+        "name" : "Request",
+        "source" : "c0e8186930f307a5.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "32dc8cbec59ae12e",
+        "name" : "Response",
+        "source" : "32dc8cbec59ae12e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631887320582,
+        "stop" : 1631887320622,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3635137f6069cabb",
+        "name" : "Request",
+        "source" : "3635137f6069cabb.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "b8c3b38386135de0",
+        "name" : "Response",
+        "source" : "b8c3b38386135de0.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b57d082b-49c4-4db9-834b-fe8e65c5ed55/clear",
+      "time" : {
+        "start" : 1631887320623,
+        "stop" : 1631887320708,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b57d082b-49c4-4db9-834b-fe8e65c5ed55/clear",
+      "time" : {
+        "start" : 1631887320708,
+        "stop" : 1631887320739,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b57d082b-49c4-4db9-834b-fe8e65c5ed55/value",
+      "time" : {
+        "start" : 1631887320747,
+        "stop" : 1631887320840,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "784abce2821355c2",
+        "name" : "Request",
+        "source" : "784abce2821355c2.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631887320840,
+        "stop" : 1631887320862,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8cb87856054b75f",
+        "name" : "Request",
+        "source" : "b8cb87856054b75f.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "8c28793d9057e5f1",
+        "name" : "Response",
+        "source" : "8c28793d9057e5f1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631887320868,
+        "stop" : 1631887321548,
+        "duration" : 680
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/product.test.js:9:14)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/actions",
+        "time" : {
+          "start" : 1631887320870,
+          "stop" : 1631887321535,
+          "duration" : 665
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7b6dc438e7f38e59",
+          "name" : "Request",
+          "source" : "7b6dc438e7f38e59.json",
+          "type" : "application/json",
+          "size" : 253
+        }, {
+          "uid" : "77e844126cf312ca",
+          "name" : "Screenshot",
+          "source" : "77e844126cf312ca.png",
+          "type" : "image/png",
+          "size" : 1137510
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d4e293eb548d289d",
+      "name" : "Response",
+      "source" : "d4e293eb548d289d.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should search for the product "
+  }, {
+    "name" : "package",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21690b2a451110e.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "6902780eaba723b5",
+  "name" : "Should go to Login page",
+  "fullName" : "register.Should go to Login page",
+  "historyId" : "d8809dadd9bb204373f2906f65ded6a2",
+  "time" : {
+    "start" : 1631833197242,
+    "stop" : 1631833198060,
+    "duration" : 818
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "(intermediate value).clickOnElement is not a function",
+  "statusTrace" : "TypeError: (intermediate value).clickOnElement is not a function\n                    at RegistryPage.goToLoginPage (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:40:17)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:9:26)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "(intermediate value).clickOnElement is not a function",
+    "statusTrace" : "TypeError: (intermediate value).clickOnElement is not a function\n                    at RegistryPage.goToLoginPage (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:40:17)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:9:26)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631833197243,
+        "stop" : 1631833198059,
+        "duration" : 816
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1631833197247,
+          "stop" : 1631833198029,
+          "duration" : 782
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4522028212e05e5",
+          "name" : "Request",
+          "source" : "4522028212e05e5.json",
+          "type" : "application/json",
+          "size" : 65
+        }, {
+          "uid" : "43fbf841ae3ec368",
+          "name" : "Response",
+          "source" : "43fbf841ae3ec368.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "86f5bde48018e240",
+        "name" : "Screenshot",
+        "source" : "86f5bde48018e240.png",
+        "type" : "image/png",
+        "size" : 1135270
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to Login page"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6902780eaba723b5.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

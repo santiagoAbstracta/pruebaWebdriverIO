@@ -1,0 +1,379 @@
+{
+  "uid" : "93b25a3e63a5f013",
+  "name" : "Should enter the email to subscribe to a Newsletter and verify that we still in home page and a success message is displayed",
+  "fullName" : "Subscribe to Newsletter.Should enter the email to subscribe to a Newsletter and verify that we still in home page and a success message is displayed",
+  "historyId" : "3d2ec89dc6d3aaacb5f7dddf972eb5bf",
+  "time" : {
+    "start" : 1631989170649,
+    "stop" : 1631989177433,
+    "duration" : 6784
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631989170809,
+        "stop" : 1631989175269,
+        "duration" : 4460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "75653e29c07ac579",
+        "name" : "Request",
+        "source" : "75653e29c07ac579.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631989175315,
+        "stop" : 1631989175397,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96a5325e975c777a",
+        "name" : "Request",
+        "source" : "96a5325e975c777a.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "95406d52b5a6e3dc",
+        "name" : "Response",
+        "source" : "95406d52b5a6e3dc.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631989175397,
+        "stop" : 1631989175446,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fe984c4076697ec0",
+        "name" : "Request",
+        "source" : "fe984c4076697ec0.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "8c5891c80b672d90",
+        "name" : "Response",
+        "source" : "8c5891c80b672d90.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/25e0656b-f4f8-4dfe-a517-89417b484334/clear",
+      "time" : {
+        "start" : 1631989175447,
+        "stop" : 1631989175766,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/25e0656b-f4f8-4dfe-a517-89417b484334/clear",
+      "time" : {
+        "start" : 1631989175766,
+        "stop" : 1631989175812,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/25e0656b-f4f8-4dfe-a517-89417b484334/value",
+      "time" : {
+        "start" : 1631989175829,
+        "stop" : 1631989175951,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2bcfe317b4a60254",
+        "name" : "Request",
+        "source" : "2bcfe317b4a60254.json",
+        "type" : "application/json",
+        "size" : 65
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631989175951,
+        "stop" : 1631989175984,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f6ab16127fe89c9",
+        "name" : "Request",
+        "source" : "1f6ab16127fe89c9.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "8bd607fbd64e1e10",
+        "name" : "Response",
+        "source" : "8bd607fbd64e1e10.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1631989175993,
+        "stop" : 1631989177381,
+        "duration" : 1388
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/actions",
+        "time" : {
+          "start" : 1631989175996,
+          "stop" : 1631989176034,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1a207bd3d7989f56",
+          "name" : "Request",
+          "source" : "1a207bd3d7989f56.json",
+          "type" : "application/json",
+          "size" : 253
+        }, {
+          "uid" : "8799f1f7482ed2b9",
+          "name" : "Response",
+          "source" : "8799f1f7482ed2b9.json",
+          "type" : "application/json",
+          "size" : 41
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/title",
+        "time" : {
+          "start" : 1631989176036,
+          "stop" : 1631989177320,
+          "duration" : 1284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "DELETE /session/:sessionId/actions",
+        "time" : {
+          "start" : 1631989177320,
+          "stop" : 1631989177331,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "81be255d2add4292",
+          "name" : "Response",
+          "source" : "81be255d2add4292.json",
+          "type" : "application/json",
+          "size" : 10
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1631989177332,
+          "stop" : 1631989177346,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5739bd8f57aa5fef",
+          "name" : "Request",
+          "source" : "5739bd8f57aa5fef.json",
+          "type" : "application/json",
+          "size" : 70
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9341b9fe4c18e241",
+        "name" : "Response",
+        "source" : "9341b9fe4c18e241.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/85c28aa8-215b-44e4-aa9d-8033eeb4c0d0/text",
+      "time" : {
+        "start" : 1631989177387,
+        "stop" : 1631989177431,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28297ff4fc244779",
+        "name" : "Response",
+        "source" : "28297ff4fc244779.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d570d69d513f8b5a",
+      "name" : "Response",
+      "source" : "d570d69d513f8b5a.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Subscribe to Newsletter"
+  }, {
+    "name" : "testClass",
+    "value" : "Subscribe to Newsletter"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should enter the email to subscribe to a Newsletter and verify that we still in home page and a success message is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Subscribe to Newsletter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff2ef555b8448366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987663670,
+        "stop" : 1631987670054,
+        "duration" : 6384
+      }
+    }, {
+      "uid" : "8571df033c6f05ad",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected 'Newsletter : You have successfully subscribed to this newsletter.' to equal 'You have successfully subscribed to this newsletter.'      \n                      actual expected\n                      \n                      'Newsletter : You have successfully subscribed to this newsletter.'\n                      ",
+      "time" : {
+        "start" : 1631987589661,
+        "stop" : 1631987606970,
+        "duration" : 17309
+      }
+    }, {
+      "uid" : "3311e94aafb4d116",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected 'Search - My Store' to equal 'My Store'      \n                      actual expected\n                      \n                      'Search - My Store'\n                      ",
+      "time" : {
+        "start" : 1631987514052,
+        "stop" : 1631987521477,
+        "duration" : 7425
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93b25a3e63a5f013.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

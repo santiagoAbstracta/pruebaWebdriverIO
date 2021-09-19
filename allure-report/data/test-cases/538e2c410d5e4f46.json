@@ -1,0 +1,187 @@
+{
+  "uid" : "538e2c410d5e4f46",
+  "name" : "Should go to contact us page",
+  "fullName" : "Send contact Us form.Should go to contact us page",
+  "historyId" : "d59f2ebfc8537def4a053c33a3b9847b",
+  "time" : {
+    "start" : 1631911905464,
+    "stop" : 1631911911289,
+    "duration" : 5825
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "helper is not defined",
+  "statusTrace" : "ReferenceError: helper is not defined\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/contactUs.test.js:8:24)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "helper is not defined",
+    "statusTrace" : "ReferenceError: helper is not defined\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/contactUs.test.js:8:24)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631911905636,
+        "stop" : 1631911911080,
+        "duration" : 5444
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1631911905642,
+          "stop" : 1631911910477,
+          "duration" : 4835
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "db6fece9b0b04b15",
+          "name" : "Request",
+          "source" : "db6fece9b0b04b15.json",
+          "type" : "application/json",
+          "size" : 61
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "5bd875c288e061ec",
+        "name" : "Response",
+        "source" : "5bd875c288e061ec.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631911911101,
+        "stop" : 1631911911194,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6437aa6117663b5",
+        "name" : "Request",
+        "source" : "b6437aa6117663b5.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "ee967e9493f7b84c",
+        "name" : "Response",
+        "source" : "ee967e9493f7b84c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631911911194,
+        "stop" : 1631911911275,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cc7555671b4c004",
+        "name" : "Request",
+        "source" : "8cc7555671b4c004.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "a96a98d94a8be416",
+        "name" : "Screenshot",
+        "source" : "a96a98d94a8be416.png",
+        "type" : "image/png",
+        "size" : 1127853
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/d67e64de-6d12-4c69-aaa9-a32c21edb352/click",
+      "time" : {
+        "start" : 1631911911296,
+        "stop" : 0,
+        "duration" : -1631911911296
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "34fff4da0f8c4251",
+      "name" : "Response",
+      "source" : "34fff4da0f8c4251.json",
+      "type" : "application/json",
+      "size" : 4
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to contact us page"
+  }, {
+    "name" : "package",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "538e2c410d5e4f46.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

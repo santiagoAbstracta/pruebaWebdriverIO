@@ -1,0 +1,208 @@
+{
+  "uid" : "c0226e88a2860ff2",
+  "name" : "Should go to Login page",
+  "fullName" : "register.Should go to Login page",
+  "historyId" : "d8809dadd9bb204373f2906f65ded6a2",
+  "time" : {
+    "start" : 1631833317324,
+    "stop" : 1631833318943,
+    "duration" : 1619
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+  "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:11:14)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+    "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:11:14)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631833317325,
+        "stop" : 1631833317403,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a821c39451f9d1a",
+        "name" : "Request",
+        "source" : "4a821c39451f9d1a.json",
+        "type" : "application/json",
+        "size" : 65
+      }, {
+        "uid" : "5ca56ab9cd110713",
+        "name" : "Response",
+        "source" : "5ca56ab9cd110713.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631833317412,
+        "stop" : 1631833317458,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21c2f5123681fe47",
+        "name" : "Request",
+        "source" : "21c2f5123681fe47.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "fe69ec13b9588abc",
+        "name" : "Response",
+        "source" : "fe69ec13b9588abc.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631833317459,
+        "stop" : 1631833317509,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d70ff4895ee7ee51",
+        "name" : "Request",
+        "source" : "d70ff4895ee7ee51.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "2755a6c56a1feabc",
+        "name" : "Response",
+        "source" : "2755a6c56a1feabc.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/4200b3d4-f8ac-4298-8a56-9739b4b4f0c8/click",
+      "time" : {
+        "start" : 1631833317509,
+        "stop" : 1631833318642,
+        "duration" : 1133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631833318642,
+        "stop" : 1631833318659,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9388d9dd659150a5",
+        "name" : "Response",
+        "source" : "9388d9dd659150a5.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631833318662,
+        "stop" : 1631833318935,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4c91ec76d0fb234",
+        "name" : "Screenshot",
+        "source" : "a4c91ec76d0fb234.png",
+        "type" : "image/png",
+        "size" : 166891
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to Login page"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0226e88a2860ff2.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

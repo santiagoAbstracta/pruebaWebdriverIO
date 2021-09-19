@@ -1,0 +1,208 @@
+{
+  "uid" : "68e6b4bf17cfaca0",
+  "name" : "Should search for the product ",
+  "fullName" : "Search for a product, go to product page and add to the cart.Should search for the product ",
+  "historyId" : "8eb12ca604edc9345d1424787c994981",
+  "time" : {
+    "start" : 1631892024829,
+    "stop" : 1631892074989,
+    "duration" : 50160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should search for the product "
+  }, {
+    "name" : "package",
+    "value" : "Search for a product, go to product page and add to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be8b2f187ad92e7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631891576483,
+        "stop" : 1631891576644,
+        "duration" : 161
+      }
+    }, {
+      "uid" : "374da22b06617966",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Search for a product, go to product page and add to the cart Should search for the product \" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\addProductToCart.test.js)",
+      "time" : {
+        "start" : 1631890727280,
+        "stop" : 1631890787471,
+        "duration" : 60191
+      }
+    }, {
+      "uid" : "d36b95304b029bce",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//a[@title='dress'][@class=\"product-name\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1631890617681,
+        "stop" : 1631890633467,
+        "duration" : 15786
+      }
+    }, {
+      "uid" : "a7056f97fdb222b7",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Search for a product, go to product page and add to the cart Should search for the product \" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\addProductToCart.test.js)",
+      "time" : {
+        "start" : 1631889840608,
+        "stop" : 1631889900799,
+        "duration" : 60191
+      }
+    }, {
+      "uid" : "ebf7d0ba24c5ec23",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Search for a product, go to product page and add to the cart Should search for the product \" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\addProductToCart.test.js)",
+      "time" : {
+        "start" : 1631889683600,
+        "stop" : 1631889743772,
+        "duration" : 60172
+      }
+    }, {
+      "uid" : "db5c0a9038dd0d9",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n                  (Session info: chrome=93.0.4577.82)",
+      "time" : {
+        "start" : 1631889420358,
+        "stop" : 1631889443066,
+        "duration" : 22708
+      }
+    }, {
+      "uid" : "c9a208755cb0d6e",
+      "status" : "broken",
+      "statusDetails" : "move target out of bounds\n                  (Session info: chrome=93.0.4577.82)",
+      "time" : {
+        "start" : 1631889191533,
+        "stop" : 1631889218167,
+        "duration" : 26634
+      }
+    }, {
+      "uid" : "b92b2d0a18af7fd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631888938004,
+        "stop" : 1631888962517,
+        "duration" : 24513
+      }
+    }, {
+      "uid" : "18a3562b2408cbe8",
+      "status" : "broken",
+      "statusDetails" : "productName is not defined",
+      "time" : {
+        "start" : 1631888849097,
+        "stop" : 1631888867552,
+        "duration" : 18455
+      }
+    }, {
+      "uid" : "14eaf06576b19291",
+      "status" : "failed",
+      "statusDetails" : "Error: The product name of the search result is not the expected: expected 'Faded Short Sleeve T-shirts' to equal 'HOLA'      \n                      actual expected\n                      \n                      'Faded Short Sleeve T-shirtsHOLA'\n                      ",
+      "time" : {
+        "start" : 1631888200562,
+        "stop" : 1631888225479,
+        "duration" : 24917
+      }
+    }, {
+      "uid" : "c8b48de9af3ce7c7",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected 'Faded Short Sleeve T-shirts' to equal 'HOLA'      \n                      actual expected\n                      \n                      'Faded Short Sleeve T-shirtsHOLA'\n                      ",
+      "time" : {
+        "start" : 1631888124440,
+        "stop" : 1631888149778,
+        "duration" : 25338
+      }
+    }, {
+      "uid" : "9bcde3c9b1e45242",
+      "status" : "broken",
+      "statusDetails" : "element (\"[id=\"search_query_top\"]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631887983838,
+        "stop" : 1631887994737,
+        "duration" : 10899
+      }
+    }, {
+      "uid" : "cc04b096caa0922e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631887924282,
+        "stop" : 1631887950970,
+        "duration" : 26688
+      }
+    }, {
+      "uid" : "839adb8ac265de12",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //a[@title=Faded Short Sleeve T-shirts][@class=\"product-name\"] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@title=Faded Short Sleeve T-shirts][@class=\"product-name\"]' is not a valid XPath expression.\n                  (Session info: chrome=93.0.4577.82)",
+      "time" : {
+        "start" : 1631887804994,
+        "stop" : 1631887828417,
+        "duration" : 23423
+      }
+    }, {
+      "uid" : "c4192c5e362f3243",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1631887472034,
+        "stop" : 1631887494877,
+        "duration" : 22843
+      }
+    }, {
+      "uid" : "db4620a75fcacd38",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'getText' of undefined",
+      "time" : {
+        "start" : 1631887399366,
+        "stop" : 1631887416524,
+        "duration" : 17158
+      }
+    }, {
+      "uid" : "21690b2a451110e",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected [Function: getProductNameResult] to equal 'Faded Short Sleeve T-shirts'      \n                      actual expected\n                      \n                      [Function:'Faded getProductNameResult]Short Sleeve T-shirts'\n                      ",
+      "time" : {
+        "start" : 1631887304449,
+        "stop" : 1631887321548,
+        "duration" : 17099
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68e6b4bf17cfaca0.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

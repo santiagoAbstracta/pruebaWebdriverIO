@@ -1,0 +1,124 @@
+{
+  "uid" : "2c1a9cf863dbf539",
+  "name" : "Should SignOut",
+  "fullName" : "register.Should SignOut",
+  "historyId" : "d64782878bacf83150550054ee9162c4",
+  "time" : {
+    "start" : 1631833339558,
+    "stop" : 1631833339800,
+    "duration" : 242
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element.waitForClickable is not a function",
+  "statusTrace" : "TypeError: element.waitForClickable is not a function\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:19)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:16)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:26)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element.waitForClickable is not a function",
+    "statusTrace" : "TypeError: element.waitForClickable is not a function\n                    at RegistryPage.clickOnElement (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:24:19)\n                    at RegistryPage.signOut (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\base\\/base.page.js:44:16)\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/register.test.js:28:26)\n                    at Context.executeAsync (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\shim.js:293:27)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631833339560,
+        "stop" : 1631833339799,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59eb7433be6ef8c6",
+        "name" : "Screenshot",
+        "source" : "59eb7433be6ef8c6.png",
+        "type" : "image/png",
+        "size" : 62801
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should SignOut"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7fa95bcb56bd82c",
+      "status" : "broken",
+      "statusDetails" : "element.waitForClickable is not a function",
+      "time" : {
+        "start" : 1631833317021,
+        "stop" : 1631833317324,
+        "duration" : 303
+      }
+    }, {
+      "uid" : "a3d88a3e89839932",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).clickOnElement is not a function",
+      "time" : {
+        "start" : 1631833220519,
+        "stop" : 1631833221691,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "b24ddd90dc5b7ab0",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).clickOnElement is not a function",
+      "time" : {
+        "start" : 1631833196478,
+        "stop" : 1631833197242,
+        "duration" : 764
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2c1a9cf863dbf539.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

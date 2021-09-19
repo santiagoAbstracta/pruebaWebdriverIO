@@ -1,0 +1,601 @@
+{
+  "uid" : "6599245ec02639bd",
+  "name" : "Should register correctly",
+  "fullName" : "register.Should register correctly",
+  "historyId" : "b799dea23b6e6b4f2203f526ad42a23a",
+  "time" : {
+    "start" : 1631815502822,
+    "stop" : 1631815502920,
+    "duration" : 98
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "register"
+  }, {
+    "name" : "testClass",
+    "value" : "register"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should register correctly"
+  }, {
+    "name" : "package",
+    "value" : "register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1632dfabbecc809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815459581,
+        "stop" : 1631815459692,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "bc5d1768e6ae7463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815400521,
+        "stop" : 1631815400623,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "1ab1536d8183f386",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815269877,
+        "stop" : 1631815269939,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "8de6e6fc82efdb00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815203465,
+        "stop" : 1631815203555,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "c353eef444d2ef31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815168057,
+        "stop" : 1631815168112,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "c23774cc4a174fce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631814971522,
+        "stop" : 1631814971645,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "6b93cfb6bd70067",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631814903595,
+        "stop" : 1631814903750,
+        "duration" : 155
+      }
+    }, {
+      "uid" : "5bd40cc485e95008",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631813301136,
+        "stop" : 1631813330221,
+        "duration" : 29085
+      }
+    }, {
+      "uid" : "834cc1bf891bdca8",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631813131021,
+        "stop" : 1631813149596,
+        "duration" : 18575
+      }
+    }, {
+      "uid" : "b927f4c229b06705",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"register Should register correctly\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\register.test.js)",
+      "time" : {
+        "start" : 1631807380689,
+        "stop" : 1631807440760,
+        "duration" : 60071
+      }
+    }, {
+      "uid" : "4bd5e1dbc55698af",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'title' of undefined",
+      "time" : {
+        "start" : 1631807177448,
+        "stop" : 1631807188533,
+        "duration" : 11085
+      }
+    }, {
+      "uid" : "a3bcfb609b13b133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631807113634,
+        "stop" : 1631807113686,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "176c7a5d950a3ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631807093947,
+        "stop" : 1631807093992,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "88a18ea61f2cc4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631807016288,
+        "stop" : 1631807016331,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "35b29cc21fc76451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631806980257,
+        "stop" : 1631806980306,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "739b416f653b748",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'title' of undefined",
+      "time" : {
+        "start" : 1631806854492,
+        "stop" : 1631806865364,
+        "duration" : 10872
+      }
+    }, {
+      "uid" : "92c8c6e226000d47",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'title' of undefined",
+      "time" : {
+        "start" : 1631806722576,
+        "stop" : 1631806734045,
+        "duration" : 11469
+      }
+    }, {
+      "uid" : "145588b740a7d18f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631806676225,
+        "stop" : 1631806676268,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "440dccd1998b038",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631806587046,
+        "stop" : 1631806587095,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "4b5d0c3895a5e502",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631806535310,
+        "stop" : 1631806535362,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "441516ef2649a780",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'trim' of undefined",
+      "time" : {
+        "start" : 1631806363096,
+        "stop" : 1631806370721,
+        "duration" : 7625
+      }
+    }, {
+      "uid" : "7812952f3116ce5f",
+      "status" : "broken",
+      "statusDetails" : "zipPostalCode is not defined",
+      "time" : {
+        "start" : 1631805629533,
+        "stop" : 1631805638686,
+        "duration" : 9153
+      }
+    }, {
+      "uid" : "a62cec297543e3ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631805129660,
+        "stop" : 1631805148877,
+        "duration" : 19217
+      }
+    }, {
+      "uid" : "3af5567d9968c7dc",
+      "status" : "broken",
+      "statusDetails" : "element (\"#newsletter\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631805050696,
+        "stop" : 1631805068604,
+        "duration" : 17908
+      }
+    }, {
+      "uid" : "e10c4924193a783b",
+      "status" : "broken",
+      "statusDetails" : "datos is not defined",
+      "time" : {
+        "start" : 1631805012926,
+        "stop" : 1631805017191,
+        "duration" : 4265
+      }
+    }, {
+      "uid" : "dd8cf3074731f55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631804677666,
+        "stop" : 1631804695632,
+        "duration" : 17966
+      }
+    }, {
+      "uid" : "a237b2ec331a4c74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631804634329,
+        "stop" : 1631804655376,
+        "duration" : 21047
+      }
+    }, {
+      "uid" : "b3474314420209c2",
+      "status" : "broken",
+      "statusDetails" : "element (\"#newsletter\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631804528003,
+        "stop" : 1631804547819,
+        "duration" : 19816
+      }
+    }, {
+      "uid" : "d85813912e92df3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631804451482,
+        "stop" : 1631804470046,
+        "duration" : 18564
+      }
+    }, {
+      "uid" : "9ac127627c1740a2",
+      "status" : "broken",
+      "statusDetails" : "dayOfBirth is not defined",
+      "time" : {
+        "start" : 1631804368606,
+        "stop" : 1631804375438,
+        "duration" : 6832
+      }
+    }, {
+      "uid" : "f8144e5caa37b15d",
+      "status" : "broken",
+      "statusDetails" : "Cannot convert object to primitive value",
+      "time" : {
+        "start" : 1631804291961,
+        "stop" : 1631804305422,
+        "duration" : 13461
+      }
+    }, {
+      "uid" : "416159c6558f7f77",
+      "status" : "broken",
+      "statusDetails" : "element.waitForClickable is not a function",
+      "time" : {
+        "start" : 1631804148419,
+        "stop" : 1631804156541,
+        "duration" : 8122
+      }
+    }, {
+      "uid" : "de9a2425882bc6ce",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631804032484,
+        "stop" : 1631804055929,
+        "duration" : 23445
+      }
+    }, {
+      "uid" : "6814de3a1f1ab8ab",
+      "status" : "broken",
+      "statusDetails" : "subscribeToNewsletter is not defined",
+      "time" : {
+        "start" : 1631803639412,
+        "stop" : 1631803663313,
+        "duration" : 23901
+      }
+    }, {
+      "uid" : "b9f33bb939c178ae",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631802364279,
+        "stop" : 1631802381663,
+        "duration" : 17384
+      }
+    }, {
+      "uid" : "78c6697d7a31048c",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801889877,
+        "stop" : 1631801912442,
+        "duration" : 22565
+      }
+    }, {
+      "uid" : "83e3c87c4b161ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631801664502,
+        "stop" : 1631801680977,
+        "duration" : 16475
+      }
+    }, {
+      "uid" : "aa1b24d457e9f888",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801498717,
+        "stop" : 1631801519010,
+        "duration" : 20293
+      }
+    }, {
+      "uid" : "1a36345a3e573566",
+      "status" : "broken",
+      "statusDetails" : "element (\"#id_gender2\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801449703,
+        "stop" : 1631801466355,
+        "duration" : 16652
+      }
+    }, {
+      "uid" : "a097a7aae8717e2b",
+      "status" : "broken",
+      "statusDetails" : "element (\"#months\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801401988,
+        "stop" : 1631801420738,
+        "duration" : 18750
+      }
+    }, {
+      "uid" : "8d83b375f0bd33cd",
+      "status" : "broken",
+      "statusDetails" : "element (\"#months\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801354884,
+        "stop" : 1631801372371,
+        "duration" : 17487
+      }
+    }, {
+      "uid" : "106bc17eb844ca5",
+      "status" : "broken",
+      "statusDetails" : "element (\"#years\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801301493,
+        "stop" : 1631801328304,
+        "duration" : 26811
+      }
+    }, {
+      "uid" : "9979977e2002cce8",
+      "status" : "broken",
+      "statusDetails" : "element (\"#months\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631801252687,
+        "stop" : 1631801269477,
+        "duration" : 16790
+      }
+    }, {
+      "uid" : "1beab549dffa5a1",
+      "status" : "broken",
+      "statusDetails" : "Option with text \"June\" not found.",
+      "time" : {
+        "start" : 1631801154706,
+        "stop" : 1631801163374,
+        "duration" : 8668
+      }
+    }, {
+      "uid" : "f305643a9ccab64f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631800697996,
+        "stop" : 1631800723014,
+        "duration" : 25018
+      }
+    }, {
+      "uid" : "eaa484917f5ef34e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631800591910,
+        "stop" : 1631800614474,
+        "duration" : 22564
+      }
+    }, {
+      "uid" : "f01cfc9ea62d4899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631800206873,
+        "stop" : 1631800224308,
+        "duration" : 17435
+      }
+    }, {
+      "uid" : "8e1eabd84cea1029",
+      "status" : "broken",
+      "statusDetails" : "_base.default.selectElementByAttribute is not a function",
+      "time" : {
+        "start" : 1631800133710,
+        "stop" : 1631800138228,
+        "duration" : 4518
+      }
+    }, {
+      "uid" : "c9acaeb49c7e2fd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631799888696,
+        "stop" : 1631799905709,
+        "duration" : 17013
+      }
+    }, {
+      "uid" : "31d3f5d9c93cd8b9",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631799649281,
+        "stop" : 1631799666831,
+        "duration" : 17550
+      }
+    }, {
+      "uid" : "d5e30be2f80860c2",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631799559497,
+        "stop" : 1631799576725,
+        "duration" : 17228
+      }
+    }, {
+      "uid" : "f4208cc214bb887e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631799460073,
+        "stop" : 1631799478207,
+        "duration" : 18134
+      }
+    }, {
+      "uid" : "8f7564198e4fe5c",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631799251370,
+        "stop" : 1631799272789,
+        "duration" : 21419
+      }
+    }, {
+      "uid" : "720b851189730211",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631799095514,
+        "stop" : 1631799114790,
+        "duration" : 19276
+      }
+    }, {
+      "uid" : "2331a14d03c13f2a",
+      "status" : "broken",
+      "statusDetails" : "(intermediate value).selectByAttribute is not a function",
+      "time" : {
+        "start" : 1631798892845,
+        "stop" : 1631798905415,
+        "duration" : 12570
+      }
+    }, {
+      "uid" : "1fee155dded9b1a1",
+      "status" : "broken",
+      "statusDetails" : "element (\"#days\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631798768140,
+        "stop" : 1631798784940,
+        "duration" : 16800
+      }
+    }, {
+      "uid" : "2c0d9d06f0ab178d",
+      "status" : "broken",
+      "statusDetails" : "element (\"#isPasswd\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631798661335,
+        "stop" : 1631798678927,
+        "duration" : 17592
+      }
+    }, {
+      "uid" : "d40b16f054059bd7",
+      "status" : "broken",
+      "statusDetails" : "element (\"#newsletter\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1631798063386,
+        "stop" : 1631798080042,
+        "duration" : 16656
+      }
+    }, {
+      "uid" : "56e31573b3c763cc",
+      "status" : "broken",
+      "statusDetails" : "element.waitForClickable is not a function",
+      "time" : {
+        "start" : 1631797887730,
+        "stop" : 1631797895340,
+        "duration" : 7610
+      }
+    }, {
+      "uid" : "91d729cd7da6979f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631797537735,
+        "stop" : 1631797551136,
+        "duration" : 13401
+      }
+    }, {
+      "uid" : "8c47bca5626a2153",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631797434593,
+        "stop" : 1631797440977,
+        "duration" : 6384
+      }
+    }, {
+      "uid" : "7d68a45d5314aa5f",
+      "status" : "broken",
+      "statusDetails" : "firstName is not defined",
+      "time" : {
+        "start" : 1631797373765,
+        "stop" : 1631797384807,
+        "duration" : 11042
+      }
+    }, {
+      "uid" : "fdc63c32cdc08d15",
+      "status" : "broken",
+      "statusDetails" : "firstName is not defined",
+      "time" : {
+        "start" : 1631797337202,
+        "stop" : 1631797348353,
+        "duration" : 11151
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6599245ec02639bd.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

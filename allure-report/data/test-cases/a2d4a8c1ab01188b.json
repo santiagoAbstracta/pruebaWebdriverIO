@@ -1,0 +1,143 @@
+{
+  "uid" : "a2d4a8c1ab01188b",
+  "name" : "Should signOut from the account",
+  "fullName" : "login.Should signOut from the account",
+  "historyId" : "a64eac1b94e47f416a57382c4ff26042",
+  "time" : {
+    "start" : 1631994424700,
+    "stop" : 1631994425064,
+    "duration" : 364
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+  "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:27:10)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+    "statusTrace" : "AssertionError: Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/login.test.js:27:10)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631994424701,
+        "stop" : 1631994424764,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6e93cfd9a0bcbe8",
+        "name" : "Response",
+        "source" : "e6e93cfd9a0bcbe8.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631994424769,
+        "stop" : 1631994425047,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "21bee15e37860f39",
+        "name" : "Screenshot",
+        "source" : "21bee15e37860f39.png",
+        "type" : "image/png",
+        "size" : 166574
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should signOut from the account"
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec8c89540aea4e31",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected 'My account - My Store' to equal 'Login - My Store'      \n                      actual expected\n                      \n                      'MyLogin account - My Store'\n                      ",
+      "time" : {
+        "start" : 1631994333863,
+        "stop" : 1631994334223,
+        "duration" : 360
+      }
+    }, {
+      "uid" : "fcf89897529b995e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631994320538,
+        "stop" : 1631994320563,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "b394e7e36c2d69c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631993996402,
+        "stop" : 1631993996571,
+        "duration" : 169
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a2d4a8c1ab01188b.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

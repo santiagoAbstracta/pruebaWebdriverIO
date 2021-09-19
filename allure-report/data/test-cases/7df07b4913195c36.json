@@ -1,0 +1,208 @@
+{
+  "uid" : "7df07b4913195c36",
+  "name" : "Should go to contact us page",
+  "fullName" : "Send contact Us form.Should go to contact us page",
+  "historyId" : "d59f2ebfc8537def4a053c33a3b9847b",
+  "time" : {
+    "start" : 1631986136765,
+    "stop" : 1631986144346,
+    "duration" : 7581
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=contact' to equal 'Contact us - My Store'      \n                      actual expected\n                      \n                      'http://automationpractice.com/index.php?controller=contactContact us - My Store'\n                      ",
+  "statusTrace" : "AssertionError: Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=contact' to equal 'Contact us - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/contactUs.test.js:12:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=contact' to equal 'Contact us - My Store'      \n                      actual expected\n                      \n                      'http://automationpractice.com/index.php?controller=contactContact us - My Store'\n                      ",
+    "statusTrace" : "AssertionError: Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=contact' to equal 'Contact us - My Store'\n                    at Context.<anonymous> (C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\tests\\/contactUs.test.js:12:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631986136922,
+        "stop" : 1631986142253,
+        "duration" : 5331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20b9eb16685de6c3",
+        "name" : "Request",
+        "source" : "20b9eb16685de6c3.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631986142298,
+        "stop" : 1631986142384,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "769604c472538920",
+        "name" : "Request",
+        "source" : "769604c472538920.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "4003f8d50261f7df",
+        "name" : "Response",
+        "source" : "4003f8d50261f7df.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631986142385,
+        "stop" : 1631986142450,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6f435b493c1e65b",
+        "name" : "Request",
+        "source" : "b6f435b493c1e65b.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "ec0dd46e7d59b2bd",
+        "name" : "Response",
+        "source" : "ec0dd46e7d59b2bd.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ebb82a0e-3018-4270-ad46-d4fc3a1ac0e2/click",
+      "time" : {
+        "start" : 1631986142451,
+        "stop" : 1631986143792,
+        "duration" : 1341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1631986143792,
+        "stop" : 1631986143818,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3772a022dc834eb0",
+        "name" : "Response",
+        "source" : "3772a022dc834eb0.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1631986143824,
+        "stop" : 1631986144326,
+        "duration" : 502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa1ca1688dd39cdd",
+        "name" : "Screenshot",
+        "source" : "fa1ca1688dd39cdd.png",
+        "type" : "image/png",
+        "size" : 151299
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c31146b2df0040e0",
+      "name" : "Response",
+      "source" : "c31146b2df0040e0.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to contact us page"
+  }, {
+    "name" : "package",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7df07b4913195c36.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

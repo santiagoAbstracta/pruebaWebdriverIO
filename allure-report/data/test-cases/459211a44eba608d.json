@@ -1,0 +1,87 @@
+{
+  "uid" : "459211a44eba608d",
+  "name" : "Debería buscar iPhone",
+  "fullName" : "OpenCart.Debería buscar iPhone",
+  "historyId" : "d932d9d109cf4370e81b08e6c92490a6",
+  "time" : {
+    "start" : 1631731814940,
+    "stop" : 1631731814951,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1631731814943,
+        "stop" : 0,
+        "duration" : -1631731814943
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44cb1555ec11a5e0",
+        "name" : "Request",
+        "source" : "44cb1555ec11a5e0.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "OpenCart"
+  }, {
+    "name" : "testClass",
+    "value" : "OpenCart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar iPhone"
+  }, {
+    "name" : "package",
+    "value" : "OpenCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "459211a44eba608d.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

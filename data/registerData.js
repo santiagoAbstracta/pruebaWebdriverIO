@@ -1,0 +1,27 @@
+import helper from "../utils/helpers";
+
+module.exports = {
+  email: `santiago.rodriguez+${helper.generatetodayTime()}@abstracta.com.uy`,
+  title: "Mrs.",
+  firstName: "Santiago",
+  lastName: "Rodriguez",
+  password: "Test144",
+  dayOfBirth: 3,
+  monthOfBirth: 6,
+  yearOfBirth: 1997,
+  subscribeToNewsletter: true,
+  receiveOffers: true,
+  firstNameAddress: "Santiago",
+  lastNameAddress: "Rodriguez",
+  companyName: "Abstracta",
+  address: "Address 1",
+  address2: "Address 2",
+  city: "New York",
+  state: "New York",
+  zipPostalCode: "00000",
+  country: "United States",
+  additionalInfo: "Test",
+  homePhone: "099874789",
+  mobilePhone: "+59899879797",
+  addressAlias: "Address Test",
+};

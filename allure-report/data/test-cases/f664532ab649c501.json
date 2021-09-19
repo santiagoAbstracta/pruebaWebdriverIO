@@ -1,0 +1,398 @@
+{
+  "uid" : "f664532ab649c501",
+  "name" : "Should go to page of the searched product",
+  "fullName" : "Search for a product, and add it to the cart.Should go to page of the searched product",
+  "historyId" : "580f019ac9dad8bc424b608c350f7c57",
+  "time" : {
+    "start" : 1631905174979,
+    "stop" : 1631905177912,
+    "duration" : 2933
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631905174980,
+        "stop" : 1631905175000,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfb07b6c8cc69ace",
+        "name" : "Request",
+        "source" : "bfb07b6c8cc69ace.json",
+        "type" : "application/json",
+        "size" : 97
+      }, {
+        "uid" : "8918dd89954014f3",
+        "name" : "Response",
+        "source" : "8918dd89954014f3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631905175005,
+        "stop" : 1631905175123,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5cb5dbc3de30709e",
+        "name" : "Request",
+        "source" : "5cb5dbc3de30709e.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "f482d35535ccaf68",
+        "name" : "Response",
+        "source" : "f482d35535ccaf68.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631905175124,
+        "stop" : 1631905175186,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec9e359658c59625",
+        "name" : "Request",
+        "source" : "ec9e359658c59625.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "ffb4ed6c1ae0daca",
+        "name" : "Response",
+        "source" : "ffb4ed6c1ae0daca.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/43370082-6753-42c6-bbe7-b697a6c134ce/click",
+      "time" : {
+        "start" : 1631905175187,
+        "stop" : 1631905177868,
+        "duration" : 2681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631905177869,
+        "stop" : 1631905177890,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b03e6e64566c7d20",
+        "name" : "Request",
+        "source" : "b03e6e64566c7d20.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "ce779240a6fcc508",
+        "name" : "Response",
+        "source" : "ce779240a6fcc508.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/6e101196-7d0b-4217-af6c-4510bba53eca/text",
+      "time" : {
+        "start" : 1631905177893,
+        "stop" : 1631905177912,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7208056501e4e5f",
+        "name" : "Response",
+        "source" : "7208056501e4e5f.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to page of the searched product"
+  }, {
+    "name" : "package",
+    "value" : "Search for a product, and add it to the cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a00d130dcdb61151",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631904757537,
+        "stop" : 1631904759360,
+        "duration" : 1823
+      }
+    }, {
+      "uid" : "4fa530bd6d8d56ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631904696324,
+        "stop" : 1631904698923,
+        "duration" : 2599
+      }
+    }, {
+      "uid" : "a8e0a6375421fb75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631904125075,
+        "stop" : 1631904126970,
+        "duration" : 1895
+      }
+    }, {
+      "uid" : "1872b832f3730592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631904064062,
+        "stop" : 1631904066154,
+        "duration" : 2092
+      }
+    }, {
+      "uid" : "18e6a2301954ca4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631903350464,
+        "stop" : 1631903353026,
+        "duration" : 2562
+      }
+    }, {
+      "uid" : "fd32353a0f61d097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631903118935,
+        "stop" : 1631903120779,
+        "duration" : 1844
+      }
+    }, {
+      "uid" : "3425c90dd93fa1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631903039085,
+        "stop" : 1631903041045,
+        "duration" : 1960
+      }
+    }, {
+      "uid" : "80b43a90675c927a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902969896,
+        "stop" : 1631902972236,
+        "duration" : 2340
+      }
+    }, {
+      "uid" : "3728e5c4ad1cb677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902891805,
+        "stop" : 1631902893962,
+        "duration" : 2157
+      }
+    }, {
+      "uid" : "afbb0876b3d9c88c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902808700,
+        "stop" : 1631902810984,
+        "duration" : 2284
+      }
+    }, {
+      "uid" : "d1140081085c9dcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902674478,
+        "stop" : 1631902680890,
+        "duration" : 6412
+      }
+    }, {
+      "uid" : "862e1eccd0aa8c76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902423637,
+        "stop" : 1631902430837,
+        "duration" : 7200
+      }
+    }, {
+      "uid" : "57e0b84a774b13ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631902008856,
+        "stop" : 1631902010741,
+        "duration" : 1885
+      }
+    }, {
+      "uid" : "444afb1ac308e782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901962751,
+        "stop" : 1631901964659,
+        "duration" : 1908
+      }
+    }, {
+      "uid" : "c17d9dc369bb7fe0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901914406,
+        "stop" : 1631901916294,
+        "duration" : 1888
+      }
+    }, {
+      "uid" : "45d17df5569cb363",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901862060,
+        "stop" : 1631901864302,
+        "duration" : 2242
+      }
+    }, {
+      "uid" : "8f21c7e568558504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901823340,
+        "stop" : 1631901826349,
+        "duration" : 3009
+      }
+    }, {
+      "uid" : "120585dd56abbdc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901728384,
+        "stop" : 1631901730254,
+        "duration" : 1870
+      }
+    }, {
+      "uid" : "c15f3fee7e1646a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631901484515,
+        "stop" : 1631901488273,
+        "duration" : 3758
+      }
+    }, {
+      "uid" : "74d9f179858586f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631900915972,
+        "stop" : 1631900921658,
+        "duration" : 5686
+      }
+    }, {
+      "uid" : "c89e53eac03cc7f2",
+      "status" : "failed",
+      "statusDetails" : "Error: The product name of the search result is not the expected: expected 'Printed Chiffon Dress' to equal 'h'      \n                      actual expected\n                      \n                      'Printed Chiffon Dressh'\n                      ",
+      "time" : {
+        "start" : 1631900853781,
+        "stop" : 1631900856828,
+        "duration" : 3047
+      }
+    }, {
+      "uid" : "8a92fc7379e85724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631900490286,
+        "stop" : 1631900492844,
+        "duration" : 2558
+      }
+    }, {
+      "uid" : "41b3ebc728e35740",
+      "status" : "broken",
+      "statusDetails" : "articulo is not defined",
+      "time" : {
+        "start" : 1631900431710,
+        "stop" : 1631900431930,
+        "duration" : 220
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f664532ab649c501.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

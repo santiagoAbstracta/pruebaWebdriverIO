@@ -1,0 +1,145 @@
+{
+  "uid" : "8c55a4b1d1654ade",
+  "name" : "Should logut ",
+  "fullName" : "login.Should logut ",
+  "historyId" : "4e6ccf47b45348774cc24ceec5a86d6d",
+  "time" : {
+    "start" : 1631834318032,
+    "stop" : 1631834321671,
+    "duration" : 3639
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631834318033,
+        "stop" : 1631834318112,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "556f93072d0d543f",
+        "name" : "Request",
+        "source" : "556f93072d0d543f.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6efde5aadd3dd92e",
+        "name" : "Response",
+        "source" : "6efde5aadd3dd92e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5769c2d8-7468-40c1-980d-ff7c43542540/click",
+      "time" : {
+        "start" : 1631834318120,
+        "stop" : 1631834321670,
+        "duration" : 3550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "login"
+  }, {
+    "name" : "testClass",
+    "value" : "login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should logut "
+  }, {
+    "name" : "package",
+    "value" : "login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b347f756cd378a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631834235396,
+        "stop" : 1631834236660,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "d8e6e0a478be4753",
+      "status" : "broken",
+      "statusDetails" : "this.signOut.click is not a function",
+      "time" : {
+        "start" : 1631833996333,
+        "stop" : 1631833996596,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "d77ea6bc9eb7cdd7",
+      "status" : "broken",
+      "statusDetails" : "element.waitForClickable is not a function",
+      "time" : {
+        "start" : 1631833941817,
+        "stop" : 1631833942053,
+        "duration" : 236
+      }
+    }, {
+      "uid" : "6242c6241eba69a6",
+      "status" : "broken",
+      "statusDetails" : "element.waitForClickable is not a function",
+      "time" : {
+        "start" : 1631833810542,
+        "stop" : 1631833810802,
+        "duration" : 260
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c55a4b1d1654ade.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

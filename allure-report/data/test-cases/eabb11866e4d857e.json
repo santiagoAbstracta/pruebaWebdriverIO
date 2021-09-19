@@ -1,0 +1,480 @@
+{
+  "uid" : "eabb11866e4d857e",
+  "name" : "Should go to contact us page",
+  "fullName" : "Send contact Us form.Should go to contact us page",
+  "historyId" : "d59f2ebfc8537def4a053c33a3b9847b",
+  "time" : {
+    "start" : 1631987235115,
+    "stop" : 1631987242278,
+    "duration" : 7163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631987235225,
+        "stop" : 1631987239741,
+        "duration" : 4516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fff23a9a2ffa9916",
+        "name" : "Request",
+        "source" : "fff23a9a2ffa9916.json",
+        "type" : "application/json",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631987239783,
+        "stop" : 1631987239866,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a737f95ddd9c7457",
+        "name" : "Request",
+        "source" : "a737f95ddd9c7457.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "9ce192253e401f3d",
+        "name" : "Response",
+        "source" : "9ce192253e401f3d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1631987239867,
+        "stop" : 1631987239924,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e62090d6942de7e4",
+        "name" : "Request",
+        "source" : "e62090d6942de7e4.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "c3572ba857d3dba4",
+        "name" : "Response",
+        "source" : "c3572ba857d3dba4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/3c1e29f8-5ccb-4757-bdba-079a47f1467c/click",
+      "time" : {
+        "start" : 1631987239926,
+        "stop" : 1631987242145,
+        "duration" : 2219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1631987242145,
+        "stop" : 1631987242170,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d917b8c2eda520c5",
+        "name" : "Response",
+        "source" : "d917b8c2eda520c5.json",
+        "type" : "application/json",
+        "size" : 60
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1631987242171,
+        "stop" : 1631987242193,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "260f436f8b7f960e",
+        "name" : "Response",
+        "source" : "260f436f8b7f960e.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1631987242195,
+        "stop" : 1631987242233,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8db5f19a9ab769c",
+        "name" : "Request",
+        "source" : "b8db5f19a9ab769c.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "151ba3931ba55520",
+        "name" : "Response",
+        "source" : "151ba3931ba55520.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d75180e4-8b05-46b3-b6b9-e33f94f6be72/text",
+      "time" : {
+        "start" : 1631987242245,
+        "stop" : 1631987242277,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ccf407cad9cbb32",
+        "name" : "Response",
+        "source" : "9ccf407cad9cbb32.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b2bca200809dfb12",
+      "name" : "Response",
+      "source" : "b2bca200809dfb12.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should go to contact us page"
+  }, {
+    "name" : "package",
+    "value" : "Send contact Us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-93.0.4577.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d119c03382a9ee5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987160186,
+        "stop" : 1631987166945,
+        "duration" : 6759
+      }
+    }, {
+      "uid" : "d734efd6b1ac82bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987041094,
+        "stop" : 1631987047909,
+        "duration" : 6815
+      }
+    }, {
+      "uid" : "252de0750792a132",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986980313,
+        "stop" : 1631986989608,
+        "duration" : 9295
+      }
+    }, {
+      "uid" : "4dfef45f32434eae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986938502,
+        "stop" : 1631986944550,
+        "duration" : 6048
+      }
+    }, {
+      "uid" : "499853106dd7496a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986777054,
+        "stop" : 1631986782862,
+        "duration" : 5808
+      }
+    }, {
+      "uid" : "301134452de858aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986694000,
+        "stop" : 1631986708150,
+        "duration" : 14150
+      }
+    }, {
+      "uid" : "a14a67d70049b077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631986623835,
+        "stop" : 1631986630040,
+        "duration" : 6205
+      }
+    }, {
+      "uid" : "7df07b4913195c36",
+      "status" : "failed",
+      "statusDetails" : "Error: The URL is not the expected: expected 'http://automationpractice.com/index.php?controller=contact' to equal 'Contact us - My Store'      \n                      actual expected\n                      \n                      'http://automationpractice.com/index.php?controller=contactContact us - My Store'\n                      ",
+      "time" : {
+        "start" : 1631986136765,
+        "stop" : 1631986144346,
+        "duration" : 7581
+      }
+    }, {
+      "uid" : "f2233aca22a2fff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631982175441,
+        "stop" : 1631982184809,
+        "duration" : 9368
+      }
+    }, {
+      "uid" : "fec6d92313167d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631982046897,
+        "stop" : 1631982053189,
+        "duration" : 6292
+      }
+    }, {
+      "uid" : "1fdd5777e81e5b88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631982003679,
+        "stop" : 1631982010844,
+        "duration" : 7165
+      }
+    }, {
+      "uid" : "d8e9ebc92c7bb9a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631981499564,
+        "stop" : 1631981505823,
+        "duration" : 6259
+      }
+    }, {
+      "uid" : "29fc8010fef6428c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631979037546,
+        "stop" : 1631979043812,
+        "duration" : 6266
+      }
+    }, {
+      "uid" : "9fb8e3f3a6212784",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631978477153,
+        "stop" : 1631978489922,
+        "duration" : 12769
+      }
+    }, {
+      "uid" : "3925dda18110f6ba",
+      "status" : "broken",
+      "statusDetails" : "element (\"#fileUpload\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1631978414742,
+        "stop" : 1631978433523,
+        "duration" : 18781
+      }
+    }, {
+      "uid" : "d370aaf274fe41ec",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open 'C:\\Users\\santi\\Desktop\\data\\img\\descarga.png'",
+      "time" : {
+        "start" : 1631978264115,
+        "stop" : 1631978269965,
+        "duration" : 5850
+      }
+    }, {
+      "uid" : "216abd064266e9a",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open 'C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\data\\img\\descarga.png'",
+      "time" : {
+        "start" : 1631978113060,
+        "stop" : 1631978118914,
+        "duration" : 5854
+      }
+    }, {
+      "uid" : "448b4dc0d7e7f794",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open 'C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\data\\img\\descarga.png'",
+      "time" : {
+        "start" : 1631977902602,
+        "stop" : 1631977908721,
+        "duration" : 6119
+      }
+    }, {
+      "uid" : "480bb17bc5aa49de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631977811141,
+        "stop" : 1631977821930,
+        "duration" : 10789
+      }
+    }, {
+      "uid" : "42cadf228c012512",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open 'C:\\Users\\santi\\Desktop\\WedDriverIOPruebaFinal\\pages\\data\\img\\descarga.png'",
+      "time" : {
+        "start" : 1631977664853,
+        "stop" : 1631977672128,
+        "duration" : 7275
+      }
+    }, {
+      "uid" : "2f09d80e0d8b65b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631918424414,
+        "stop" : 1631918438243,
+        "duration" : 13829
+      }
+    }, {
+      "uid" : "9f902db07b1fd385",
+      "status" : "broken",
+      "statusDetails" : "ENOENT: no such file or directory, open 'C:\\Users\\santi\\Desktop\\data\\img\\descarga.png'",
+      "time" : {
+        "start" : 1631918122034,
+        "stop" : 1631918130559,
+        "duration" : 8525
+      }
+    }, {
+      "uid" : "686167d512cb6b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631917242686,
+        "stop" : 1631917255415,
+        "duration" : 12729
+      }
+    }, {
+      "uid" : "146286529708a847",
+      "status" : "broken",
+      "statusDetails" : "element (\"#id_contact\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1631917152266,
+        "stop" : 1631917174444,
+        "duration" : 22178
+      }
+    }, {
+      "uid" : "ba07a2d47facfeb3",
+      "status" : "failed",
+      "statusDetails" : "Error: The page title is not the expected: expected 'Contact us - My Store' to equal 'Contact us - My Storee'      \n                      actual expected\n                      \n                      'Contact us - My StoreStoree'\n                      ",
+      "time" : {
+        "start" : 1631912032397,
+        "stop" : 1631912040505,
+        "duration" : 8108
+      }
+    }, {
+      "uid" : "a91407d9f79589c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631911984117,
+        "stop" : 1631911993756,
+        "duration" : 9639
+      }
+    }, {
+      "uid" : "538e2c410d5e4f46",
+      "status" : "broken",
+      "statusDetails" : "helper is not defined",
+      "time" : {
+        "start" : 1631911905464,
+        "stop" : 1631911911289,
+        "duration" : 5825
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eabb11866e4d857e.json",
+  "parameterValues" : [ "chrome-93.0.4577.82" ]
+}

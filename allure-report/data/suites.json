@@ -1,0 +1,345 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "register",
+    "children" : [ {
+      "name" : "Should register correctly",
+      "uid" : "6599245ec02639bd",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631815502822,
+        "stop" : 1631815502920,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should complete the create an account form and verify that we are redirected to register page",
+      "uid" : "5f14bfaa49ddca5d",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631820885961,
+        "stop" : 1631820886742,
+        "duration" : 781
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should go to login page and verify the URL",
+      "uid" : "1d0e7e53e432937d",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631821102284,
+        "stop" : 1631821118374,
+        "duration" : 16090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Must complete the register 'pre' form",
+      "uid" : "bd4e324eb55f16fd",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631822452973,
+        "stop" : 1631822457499,
+        "duration" : 4526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should SignOut",
+      "uid" : "2c1a9cf863dbf539",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631833339558,
+        "stop" : 1631833339800,
+        "duration" : 242
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should signOut from the account",
+      "uid" : "ba5043f4dd11871c",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1631835390606,
+        "stop" : 1631835400721,
+        "duration" : 10115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should go to Login page",
+      "uid" : "5b0721c5567673c7",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631883417368,
+        "stop" : 1631883444899,
+        "duration" : 27531
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should complete the register 'pre' form",
+      "uid" : "6b949e9fa9f25839",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631883444900,
+        "stop" : 1631883445494,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should complete register form and verify that we are redirected to my account page",
+      "uid" : "2a363bc664ac91d1",
+      "parentUid" : "bb12319cef5968e28daa09a46ac717c5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631883445495,
+        "stop" : 1631883464122,
+        "duration" : 18627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "bb12319cef5968e28daa09a46ac717c5"
+  }, {
+    "name" : "login",
+    "children" : [ {
+      "name" : "Should logut ",
+      "uid" : "8c55a4b1d1654ade",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631834318032,
+        "stop" : 1631834321671,
+        "duration" : 3639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should signOut from the account",
+      "uid" : "a2d4a8c1ab01188b",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631994424700,
+        "stop" : 1631994425064,
+        "duration" : 364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should NOT login correctly",
+      "uid" : "894dbdfea854b978",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631997904375,
+        "stop" : 1631997916949,
+        "duration" : 12574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should login correctly",
+      "uid" : "7cf464f0e59ae2a1",
+      "parentUid" : "e294307b5e869e9b2181239eb0874d42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631997916949,
+        "stop" : 1631997920305,
+        "duration" : 3356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "e294307b5e869e9b2181239eb0874d42"
+  }, {
+    "name" : "OpenCart",
+    "children" : [ {
+      "name" : "Debería buscar iPhone",
+      "uid" : "d445773f73d9218d",
+      "parentUid" : "8491f7cb357a335c852fe440cb22f59a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631881706167,
+        "stop" : 1631881706239,
+        "duration" : 72
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "8491f7cb357a335c852fe440cb22f59a"
+  }, {
+    "name" : "Search for a product, go to product page and add to the cart",
+    "children" : [ {
+      "name" : "Should search for the product ",
+      "uid" : "68e6b4bf17cfaca0",
+      "parentUid" : "ea4f610e1e427f1919f8928170172dd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631892024829,
+        "stop" : 1631892074989,
+        "duration" : 50160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "ea4f610e1e427f1919f8928170172dd6"
+  }, {
+    "name" : "Search for a product, and add it to the cart",
+    "children" : [ {
+      "name" : "Should go to page of the searched product",
+      "uid" : "f664532ab649c501",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631905174979,
+        "stop" : 1631905177912,
+        "duration" : 2933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should add product to the cart",
+      "uid" : "b203d69788fbba72",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631905177912,
+        "stop" : 1631905179682,
+        "duration" : 1770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should search for the product ",
+      "uid" : "e1b7520f6b075cee",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631909048573,
+        "stop" : 1631909055904,
+        "duration" : 7331
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should go to page of the product",
+      "uid" : "377adf91ff65de1a",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631909055905,
+        "stop" : 1631909058103,
+        "duration" : 2198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should add the product to the cart",
+      "uid" : "1272ceb14a97bea5",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631909058104,
+        "stop" : 1631909060123,
+        "duration" : 2019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should open the cart and verify that the product was correctly added",
+      "uid" : "25f04caf53533167",
+      "parentUid" : "c9434e9f8edc86ed06b52e86e2e5849a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631909060123,
+        "stop" : 1631909061079,
+        "duration" : 956
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "c9434e9f8edc86ed06b52e86e2e5849a"
+  }, {
+    "name" : "Send contact Us form",
+    "children" : [ {
+      "name" : "Should go to contact us page",
+      "uid" : "eabb11866e4d857e",
+      "parentUid" : "f4d26a335d8bcb01473b552956daa8de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631987235115,
+        "stop" : 1631987242278,
+        "duration" : 7163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    }, {
+      "name" : "Should complete contact us form",
+      "uid" : "b4ddc34bf5e582c6",
+      "parentUid" : "f4d26a335d8bcb01473b552956daa8de",
+      "status" : "failed",
+      "time" : {
+        "start" : 1631987242280,
+        "stop" : 1631987246744,
+        "duration" : 4464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "f4d26a335d8bcb01473b552956daa8de"
+  }, {
+    "name" : "Subscribe to Newsletter",
+    "children" : [ {
+      "name" : "Should enter the email to subscribe to a Newsletter and verify that we still in home page and a success message is displayed",
+      "uid" : "93b25a3e63a5f013",
+      "parentUid" : "a9017d50ae5bce79ed37bf22c656d074",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631989170649,
+        "stop" : 1631989177433,
+        "duration" : 6784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-93.0.4577.82" ]
+    } ],
+    "uid" : "a9017d50ae5bce79ed37bf22c656d074"
+  } ]
+}
